@@ -18,6 +18,7 @@
 		F9867E2C2C22D56700F0D44A /* cityData.json in Resources */ = {isa = PBXBuildFile; fileRef = F9867E2B2C22D56700F0D44A /* cityData.json */; };
 		F9867E2E2C22D91900F0D44A /* CityMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9867E2D2C22D91800F0D44A /* CityMasterViewController.swift */; };
 		F9867E302C22EC0E00F0D44A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9867E2F2C22EC0E00F0D44A /* Image.swift */; };
+		F98CF2D22C2328AD00D73D43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F98CF2D12C2328AD00D73D43 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		F9867E2B2C22D56700F0D44A /* cityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cityData.json; path = "../../../../../../../../../../Downloads/week9_files-2/cityData.json"; sourceTree = "<group>"; };
 		F9867E2D2C22D91800F0D44A /* CityMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CityMasterViewController.swift; path = ../../../../TableViewCollectionView/TableViewCollectionView/CityMasterViewController.swift; sourceTree = "<group>"; };
 		F9867E2F2C22EC0E00F0D44A /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		F9867E522C2313D700F0D44A /* MasterDetail copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MasterDetail copy-Info.plist"; path = "/Users/seulgikim/Desktop/AutoLayout/ProgrammingView/Exam1/MultipleViewController/TableViewCollectionView/CityFirebase/Masterdetail/MasterDetail/MasterDetail copy-Info.plist"; sourceTree = "<absolute>"; };
+		F98CF2D12C2328AD00D73D43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,8 @@
 			children = (
 				F9867E122C22C2E500F0D44A /* MasterDetail */,
 				F9867E112C22C2E500F0D44A /* Products */,
+				F9867E322C2308DF00F0D44A /* Frameworks */,
+				F9867E522C2313D700F0D44A /* MasterDetail copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +83,16 @@
 				F9867E2B2C22D56700F0D44A /* cityData.json */,
 				F9867E2D2C22D91800F0D44A /* CityMasterViewController.swift */,
 				F9867E2F2C22EC0E00F0D44A /* Image.swift */,
+				F98CF2D12C2328AD00D73D43 /* GoogleService-Info.plist */,
 			);
 			path = MasterDetail;
+			sourceTree = "<group>";
+		};
+		F9867E322C2308DF00F0D44A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +111,8 @@
 			dependencies = (
 			);
 			name = MasterDetail;
+			packageProductDependencies = (
+			);
 			productName = MasterDetail;
 			productReference = F9867E102C22C2E500F0D44A /* MasterDetail.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +140,8 @@
 				Base,
 			);
 			mainGroup = F9867E072C22C2E500F0D44A;
+			packageReferences = (
+			);
 			productRefGroup = F9867E112C22C2E500F0D44A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +158,7 @@
 			files = (
 				F9867E2C2C22D56700F0D44A /* cityData.json in Resources */,
 				F9867E202C22C2E600F0D44A /* LaunchScreen.storyboard in Resources */,
+				F98CF2D22C2328AD00D73D43 /* GoogleService-Info.plist in Resources */,
 				F9867E1D2C22C2E600F0D44A /* Assets.xcassets in Resources */,
 				F9867E1B2C22C2E500F0D44A /* Main.storyboard in Resources */,
 			);

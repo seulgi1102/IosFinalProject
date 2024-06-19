@@ -6,6 +6,10 @@
 //
 
 import UIKit
+//import Firebase
+//import FirebaseFirestore
+//import FirenaseStorage
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //FirebaseApp.configure()
+        
+       // Firestore.firestore().colloection("test").document("name").setData(["name" : "Seulgi Kim"])
+       // let image = UIImage(named: "Seoul")
+       // let imageData = Image?.jpegData(compressionQuality: 1.0)
+        //let reference = Storage.storage().reference().child("test").child("Seoul")
+       // let metaData = StorageMetadata
+        
         return true
     }
 
